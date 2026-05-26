@@ -23,7 +23,8 @@ public class Lab {
      * TODO: return a new Album object.
      */
     public Album labPart1(){
-        return null;
+        Album a = new Album();
+        return a;
     }
     /**
      * Let's go over the different parts of the instantiation process.
@@ -47,7 +48,8 @@ public class Lab {
      *      You could use Artist, Song, or even the class "Object"
      */
     public Object labPart2(){
-        return null;
+        Artist A = new Artist();
+        return A;
     }
     /**
      * Strings (text such as "abc") are technically Objects, but they follow a different process.
@@ -62,6 +64,6 @@ public class Lab {
      * TODO: return a new String that isn't "abc".
      */
     public String labPart3(){
-        return null;
+        return new String("DEF");
     }
 }
